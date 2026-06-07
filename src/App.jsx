@@ -97,7 +97,15 @@ const badges = [
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-zinc-950 flex items-center justify-center p-8 font-sans">
+    <div
+      className="min-h-screen flex items-center justify-center p-8 font-sans"
+      style={{
+        backgroundColor: "#09090b",
+        backgroundImage:
+          "radial-gradient(circle, #27272a 1px, transparent 1px)",
+        backgroundSize: "24px 24px",
+      }}
+    >
       <div className="w-full max-w-3xl border border-zinc-800 rounded-2xl overflow-hidden grid grid-cols-2 bg-zinc-900">
         {/* LEFT */}
         <div className="p-8 flex flex-col justify-between border-r border-zinc-800">
